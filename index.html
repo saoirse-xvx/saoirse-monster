@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Monstrous</title>
+		<meta name="title" content="Saoirse's Portfolio">
+		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="language" content="en">
+		<meta charset="UTF-8">
+		<link href="src/css/index.css" media="screen" rel="stylesheet" type="text/css" />
+		<link rel="icon" type="image/x-icon" href="src/img/favicon.ico">
+		<link href='https://fonts.googleapis.com/css?family=Roboto+Mono' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet' type='text/css'>
+		<script src="https://unpkg.com/vue@3.2.37/dist/vue.global.prod.js"></script>
+	</head>
+	<body>
+		<div id="app">
+			<div>
+				<div class="flex-column">
+					<div 
+						class="flex-row flex-item"
+					>
+						<img 
+							src="src/img/artist_bio_pic.jpeg" 
+							alt="white femme with white hair and sunglasses sitting against a grey wall. She has turquoise nails, a black hat, and a black shirt on."
+							class="profile-image"
+						>
+					</div>
+				</div>
+				<div class="flex-column main-content">
+					<div class="flex-row icons">
+						<a href="">film</a>
+						<a href="">photo</a>
+						<a href="">poem</a>
+						<a href="">essay</a>
+						<a href="">contact</a>
+					</div>
+					<div class="flex-row">
+						<div>
+							<b>Artist Bio:</b>
+							Eroticisation always consists in the erectility of a fragment of the barred body, in a phallic phantasmatisation of everything beyond the bar in the position of the signifier and the simultaneous reduction of sexuality to the rank of the signified (represented value). A reassuring structural conjuring operation enables the subject to be recovered as phallus, to identify himself with and reappropriate this fragment of the body, or the entire positivised, fetishised body in the fulfilment of a desire that will for ever misconstrue his proper loss.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- /app -->
+			<!-- Vue script. -->
+			<script>
+				const { createApp } = Vue;
+				createApp({
+					data() {
+						return {
+						}
+					}
+				}).mount('#app')
+
+			</script>
+	</body>
+</html>
+
